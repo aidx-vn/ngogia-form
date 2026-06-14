@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.exe
+.env
+.env.local
+.cookies.txt
+.body.json
+.playwright-mcp/
+env.md
+*.md.local
+Socialguide.md
+session-report-*.html

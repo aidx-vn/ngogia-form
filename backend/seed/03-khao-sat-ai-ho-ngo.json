@@ -1,0 +1,114 @@
+{
+  "title": "KHẢO SÁT NHU CẦU AI — HỌ NGÔ VIỆT NAM",
+  "description": "5 phút · Trả lời thật — càng thật càng được học đúng thứ mình cần",
+  "status": "active",
+  "schema": {
+    "questions": [
+      {
+        "id": "q_ho_ten",
+        "type": "text",
+        "label": "Họ và tên",
+        "required": true
+      },
+      {
+        "id": "q_chi_ho_dia_ban",
+        "type": "text",
+        "label": "Chi họ / Địa bàn",
+        "required": false
+      },
+      {
+        "id": "q_nghe_nghiep",
+        "type": "text",
+        "label": "Nghề nghiệp",
+        "required": false
+      },
+      {
+        "id": "q_da_tham_gia",
+        "type": "single_choice",
+        "label": "Đã tham gia buổi học nào chưa?",
+        "required": true,
+        "options": [
+          { "value": "buoi_1", "label": "Đã học Buổi 1" },
+          { "value": "buoi_2", "label": "Đã học Buổi 2" },
+          { "value": "ca_hai", "label": "Đã học cả hai buổi" },
+          { "value": "chua_hoc", "label": "Chưa học buổi nào" }
+        ]
+      },
+      {
+        "id": "q1_dung_ai",
+        "type": "text",
+        "label": "1. Bạn đang dùng AI gì và gói nào?",
+        "help": "Điền thẳng, ví dụ: \"ChatGPT Plus\", \"Gemini Free\", \"Claude Pro\", \"Chưa dùng cái nào\"",
+        "required": true
+      },
+      {
+        "id": "q2_chi_ca_nhan",
+        "type": "single_choice",
+        "label": "2. Bạn sẵn sàng chi bao nhiêu mỗi tháng cho AI cá nhân?",
+        "required": true,
+        "options": [
+          { "value": "mien_phi", "label": "Chỉ dùng miễn phí" },
+          { "value": "duoi_200k", "label": "Dưới 200k" },
+          { "value": "200k_500k", "label": "200k – 500k" },
+          { "value": "500k_1tr", "label": "500k – 1 triệu" },
+          { "value": "tren_1tr", "label": "Trên 1 triệu nếu thấy hiệu quả rõ" }
+        ]
+      },
+      {
+        "id": "q3_muc_tieu_30_ngay",
+        "type": "textarea",
+        "label": "3. Việc gì bạn muốn AI làm được cho mình trong 30 ngày tới?",
+        "help": "Điền tự do — 1 câu cụ thể",
+        "required": true
+      },
+      {
+        "id": "q4_doanh_nghiep",
+        "type": "textarea",
+        "label": "4. Doanh nghiệp của bạn — ngành gì, bao nhiêu người?",
+        "help": "Bỏ qua nếu không có kinh doanh",
+        "required": false
+      },
+      {
+        "id": "q5_chi_doanh_nghiep",
+        "type": "single_choice",
+        "label": "5. Bạn sẵn sàng đầu tư bao nhiêu mỗi tháng cho AI trong doanh nghiệp?",
+        "help": "Bỏ qua nếu không có kinh doanh",
+        "required": false,
+        "options": [
+          { "value": "mien_phi", "label": "Chỉ dùng miễn phí" },
+          { "value": "duoi_5tr", "label": "Dưới 5 triệu" },
+          { "value": "5_20tr", "label": "5 – 20 triệu" },
+          { "value": "20_50tr", "label": "20 – 50 triệu" },
+          { "value": "50_100tr", "label": "50 – 100 triệu" },
+          { "value": "tren_100tr", "label": "Trên 100 triệu nếu ROI rõ ràng" }
+        ]
+      },
+      {
+        "id": "q6_van_de_doanh_nghiep",
+        "type": "textarea",
+        "label": "6. Vấn đề lớn nhất bạn muốn AI giải quyết cho doanh nghiệp?",
+        "help": "Điền tự do — 1 câu. Bỏ qua nếu không có kinh doanh",
+        "required": false
+      },
+      {
+        "id": "q7_buoi_tiep_theo",
+        "type": "single_choice",
+        "label": "7. Buổi tiếp theo bạn muốn học gì nhất?",
+        "required": true,
+        "options": [
+          { "value": "thuc_hanh_nganh", "label": "Thực hành chuyên sâu theo ngành của tôi" },
+          { "value": "agent_tu_dong_hoa", "label": "Xây Agent / tự động hóa quy trình" },
+          { "value": "workshop_nho", "label": "Workshop nhỏ dưới 10 người — hỏi đáp trực tiếp" },
+          { "value": "tu_van_1_1", "label": "Tư vấn 1:1 cho doanh nghiệp của tôi" }
+        ]
+      },
+      {
+        "id": "q8_so_dien_thoai",
+        "type": "text",
+        "label": "8. Muốn được tư vấn riêng? Để lại số điện thoại",
+        "help": "Tùy chọn — chúng tôi sẽ liên hệ riêng",
+        "required": false
+      }
+    ]
+  }
+}

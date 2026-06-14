@@ -1,0 +1,124 @@
+{
+  "title": "Khảo Sát Nhu Cầu Hỗ Trợ",
+  "description": "Khảo sát nhằm hiểu rõ nhu cầu hỗ trợ nhà ở và sinh kế của bạn để cải thiện các chương trình của chúng tôi.",
+  "status": "active",
+  "schema": {
+    "questions": [
+      {
+        "id": "q1_loai_nhu_cau",
+        "type": "single_choice",
+        "label": "Loại hỗ trợ chính mà bạn cần nhất hiện nay là gì?",
+        "required": true,
+        "options": [
+          {
+            "value": "nha_o",
+            "label": "Hỗ trợ nhà ở (sửa chữa, xây dựng)"
+          },
+          {
+            "value": "sinh_ke",
+            "label": "Hỗ trợ sinh kế (đào tạo, vốn kinh doanh)"
+          },
+          {
+            "value": "ca_nhan",
+            "label": "Hỗ trợ cá nhân khác (y tế, giáo dục)"
+          },
+          {
+            "value": "gia_dinh",
+            "label": "Hỗ trợ gia đình đa chiều"
+          }
+        ]
+      },
+      {
+        "id": "q2_dich_vu_can_thiet",
+        "type": "multiple_choice",
+        "label": "Những dịch vụ nào bạn quan tâm nhất? (Chọn tất cả những điều phù hợp)",
+        "required": true,
+        "options": [
+          {
+            "value": "tu_van",
+            "label": "Tư vấn và hướng dẫn"
+          },
+          {
+            "value": "tro_cap_tai_chinh",
+            "label": "Trợ cấp tài chính"
+          },
+          {
+            "value": "dao_tao_ky_nang",
+            "label": "Đào tạo kỹ năng"
+          },
+          {
+            "value": "ket_noi_thuong_mai",
+            "label": "Kết nối thương mại/việc làm"
+          },
+          {
+            "value": "ho_tro_theo_duoi",
+            "label": "Hỗ trợ theo dõi sau chương trình"
+          }
+        ]
+      },
+      {
+        "id": "q3_ho_ten",
+        "type": "text",
+        "label": "Họ và tên của bạn",
+        "required": true,
+        "help": "Vui lòng nhập tên đầy đủ"
+      },
+      {
+        "id": "q4_mo_ta_chi_tiet",
+        "type": "textarea",
+        "label": "Vui lòng mô tả chi tiết tình hình gia đình và nhu cầu cụ thể của bạn",
+        "required": true,
+        "help": "Mô tả sẽ giúp chúng tôi hiểu rõ hơn và cung cấp hỗ trợ phù hợp"
+      },
+      {
+        "id": "q5_so_nhan_khau",
+        "type": "number",
+        "label": "Số nhân khẩu trong gia đình bạn",
+        "required": true,
+        "min": 1,
+        "max": 20
+      },
+      {
+        "id": "q6_ngay_bat_dau_du_kien",
+        "type": "date",
+        "label": "Ngày bạn muốn bắt đầu nhận hỗ trợ (dự kiến)",
+        "required": false
+      },
+      {
+        "id": "q7_thu_nhap_hang_thang",
+        "type": "single_choice",
+        "label": "Thu nhập hàng tháng của gia đình bạn nằm trong khoảng nào?",
+        "required": false,
+        "options": [
+          {
+            "value": "duoi_5_trieu",
+            "label": "Dưới 5 triệu đồng"
+          },
+          {
+            "value": "5_10_trieu",
+            "label": "5 - 10 triệu đồng"
+          },
+          {
+            "value": "10_20_trieu",
+            "label": "10 - 20 triệu đồng"
+          },
+          {
+            "value": "tren_20_trieu",
+            "label": "Trên 20 triệu đồng"
+          },
+          {
+            "value": "khong_dap_loi",
+            "label": "Không muốn trả lời"
+          }
+        ]
+      },
+      {
+        "id": "q8_kinh_nghiem_ho_tro",
+        "type": "textarea",
+        "label": "Bạn đã từng nhận hỗ trợ từ các tổ chức khác không? Nếu có, vui lòng chia sẻ kinh nghiệm đó.",
+        "required": false,
+        "help": "Câu hỏi này là tùy chọn"
+      }
+    ]
+  }
+}

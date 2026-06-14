@@ -1,0 +1,114 @@
+{
+  "title": "Đánh Giá Chất Lượng Dịch Vụ",
+  "description": "Đánh giá giúp chúng tôi cải thiện chất lượng các chương trình hỗ trợ nhà ở và sinh kế để phục vụ bạn tốt hơn.",
+  "status": "active",
+  "schema": {
+    "questions": [
+      {
+        "id": "q1_hoi_long_tong_the",
+        "type": "rating",
+        "label": "Nhìn chung, bạn hài lòng như thế nào với dịch vụ bạn nhận được?",
+        "required": true,
+        "min": 1,
+        "max": 5,
+        "help": "1 = Rất không hài lòng, 5 = Rất hài lòng"
+      },
+      {
+        "id": "q2_kha_nang_tieu_dung",
+        "type": "scale",
+        "label": "Dịch vụ này có giúp cải thiện khả năng tiếp cận dịch vụ/tài chính của bạn không? (NPS)",
+        "required": true,
+        "min": 0,
+        "max": 10,
+        "help": "0 = Không giúp gì cả, 10 = Rất nhiều giúp đỡ"
+      },
+      {
+        "id": "q3_hinh_thuc_duong_cap",
+        "type": "single_choice",
+        "label": "Hình thức tiếp cận dịch vụ nào thuận tiện nhất cho bạn?",
+        "required": true,
+        "options": [
+          {
+            "value": "truc_tiep",
+            "label": "Gặp trực tiếp (tại văn phòng/cộng đồng)"
+          },
+          {
+            "value": "truc_tuyen",
+            "label": "Trực tuyến (video, điện thoại, email)"
+          },
+          {
+            "value": "ket_hop",
+            "label": "Kết hợp cả hai hình thức"
+          },
+          {
+            "value": "khong_ap_dung",
+            "label": "Chưa sử dụng dịch vụ"
+          }
+        ]
+      },
+      {
+        "id": "q4_diem_manh",
+        "type": "multiple_choice",
+        "label": "Điểm mạnh nào của chương trình bạn muốn giữ lại? (Chọn tất cả những điều phù hợp)",
+        "required": true,
+        "options": [
+          {
+            "value": "nhan_vien_tai_nang",
+            "label": "Nhân viên chuyên nghiệp và tận tâm"
+          },
+          {
+            "value": "quy_trinh_don_gian",
+            "label": "Quy trình đơn giản, dễ hiểu"
+          },
+          {
+            "value": "ho_tro_tat_ca",
+            "label": "Hỗ trợ toàn diện từ nhiều phía"
+          },
+          {
+            "value": "ket_qua_co_thuc",
+            "label": "Kết quả cụ thể, có thực"
+          },
+          {
+            "value": "mo_roi_theo_duoi",
+            "label": "Mở rộng theo dõi sau chương trình"
+          }
+        ]
+      },
+      {
+        "id": "q5_gop_y_caibien",
+        "type": "textarea",
+        "label": "Bạn có gợi ý nào để cải tiến dịch vụ không? Vui lòng chia sẻ ý kiến của bạn.",
+        "required": true,
+        "help": "Mọi ý kiến đều được trân trọng"
+      },
+      {
+        "id": "q6_tieu_chuan_khac",
+        "type": "multiple_choice",
+        "label": "Những tiêu chí nào sau đây quan trọng với bạn trong việc đánh giá dịch vụ? (Chọn tất cả)",
+        "required": false,
+        "options": [
+          {
+            "value": "do_uy_tin",
+            "label": "Độ uy tín của tổ chức"
+          },
+          {
+            "value": "chi_phi_hop_ly",
+            "label": "Chi phí hợp lý"
+          },
+          {
+            "value": "toc_do_xu_ly",
+            "label": "Tốc độ xử lý nhanh"
+          },
+          {
+            "value": "duong_cap_de_dang",
+            "label": "Dễ tiếp cận dịch vụ"
+          },
+          {
+            "value": "the_chap_van_hoa",
+            "label": "Thích hợp với văn hóa địa phương"
+          }
+        ]
+      }
+    ]
+  }
+}
