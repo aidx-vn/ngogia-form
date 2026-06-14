@@ -1,4 +1,4 @@
-# Hệ thống Khảo sát — Shelter & Seed Initiative
+# Hệ thống Khảo sát — Họ Ngô Việt Nam
 
 Khung khảo sát: đăng nhập Google/Facebook, trả lời câu hỏi sinh từ JSON template, admin dashboard, tùy chỉnh giao diện (màu sắc, font chữ, logo).
 
@@ -101,7 +101,7 @@ Luồng kỹ thuật giống Google, userinfo lấy từ Graph API `me?fields=id
 ## Gán quyền admin
 
 - Dev: nút "Đăng nhập Dev (Quản trị)".
-- OAuth thật: đặt `ADMIN_EMAILS=ban@shelterseed.org,khac@shelterseed.org` trước khi chạy backend — đăng nhập bằng email đó tự có role admin.
+- OAuth thật: đặt `ADMIN_EMAILS=admin@example.com,khac@example.com` trước khi chạy backend — đăng nhập bằng email đó tự có role admin.
 
 ## JSON template khảo sát
 
